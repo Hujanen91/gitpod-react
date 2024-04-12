@@ -1,13 +1,10 @@
 import "./App.css";
-import EventsClass from "./components/EventsClass";
-import EventsFunctional from "./components/EventsFunctional";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 
 function App() {
   return <div className="App">
-    <EventsFunctional />
-    <EventsClass />
-  </div>
+      <MethodsAsPropsParent />
+  </div>;
 }
-
 
 export default App;
