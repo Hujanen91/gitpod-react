@@ -1,9 +1,9 @@
 import "./App.css";
-import SearchBar from "./components/SearchBar";
+import HTTPHooks from "./components/HTTPHooks";
 
 function App() {
   return <div className="App">
-      <SearchBar />
+      <HTTPHooks />
   </div>;
 }
 
